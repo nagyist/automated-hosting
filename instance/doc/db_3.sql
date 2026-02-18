@@ -136,6 +136,7 @@ CREATE TABLE `lh_canned_msg` (
   `department_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   `auto_send` tinyint(1) NOT NULL,
+  `activate_responder` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `attr_int_1` int(11) NOT NULL,
   `attr_int_2` int(11) NOT NULL,
   `attr_int_3` int(11) NOT NULL,
