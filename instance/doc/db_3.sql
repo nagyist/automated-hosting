@@ -2303,6 +2303,7 @@ CREATE TABLE `lh_abstract_msg_protection` (
                                               `enabled` int(11) NOT NULL DEFAULT 1,
                                               `remove` int(11) NOT NULL DEFAULT 0,
                                               `v_warning` text COLLATE utf8mb4_unicode_ci NOT NULL,
+                                              `languages` text COLLATE utf8mb4_unicode_ci NOT NULL,
                                               `rule_type` tinyint(1) unsigned NOT NULL DEFAULT 0,
                                               `has_dep` tinyint(1) unsigned NOT NULL DEFAULT 0,
                                               `name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
